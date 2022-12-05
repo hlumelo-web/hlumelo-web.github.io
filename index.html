@@ -1,29 +1,42 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hlumelo Matsha</title>
-    <link rel="stylesheet" href="style.css">
+  <title>My AI Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>      
+
 </head>
 <body>
-    <div class="header">Design</div>
-    <div class="wrapper">
-        
-            <div class="textbox">
-                <h1>ABOUT</h1>
-                <h1>PROJECTS</h1>
-                
-    
-            </div>
-
-            <div class="window_view">
-                <p>
-                    
-                </p>
-            </div>
-    </div>
-</body>
-</html>
+    <header>
+        <h1>My AI Portfolio</h1>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <nav id="nav">
+          <ul>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="bio">
+          <h2>Bio</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, tellus ut consectetur porta, quam metus vehicula tellus, vel facilisis nibh est a mauris. Ut non tortor vel enim tempus convallis eu a mauris. Nunc at elit in neque interdum volutpat a sed orci. Sed quis rutrum turpis. Pellentesque fringilla, nisi in sagittis condimentum, nisl magna fringilla diam, sit amet commodo mi mi quis leo. Nullam aliquam dui ut quam tempus, id ultricies quam porttitor.</p>
+        </section>
+        <section id="resume">
+          <h2>Resume</h2>      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, tellus ut consectetur porta, quam metus vehicula tellus, vel facilisis nibh est a mauris. Ut non tortor vel enim tempus convallis eu a mauris. Nunc at elit in neque interdum volutpat a sed orci. Sed quis rutrum turpis. Pellentesque fringilla, nisi in sagittis condimentum, nisl magna fringilla diam, sit amet commodo mi mi quis leo. Nullam aliquam dui ut quam tempus, id ultricies quam porttitor.</p>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus, tellus ut consectetur porta, quam metus vehicula tellus, vel facilisis nibh est a mauris. Ut non tortor vel enim tempus convallis eu a mauris. Nunc at elit in neque interdum volutpat a sed orci. Sed quis rutrum turpis
+        <section id="nlp-project">
+            <h2>Natural Language Processing Application</h2>
+            <p>This project is a natural language processing (NLP) application that uses machine learning algorithms to classify and analyze text data. I built it using Python and the NLTK library, and I trained the model on a large dataset of labeled text data. The application can be used for tasks such as sentiment analysis, topic modeling, and named entity recognition.</p>
+            <img src="nlp-project.png" alt="Screenshot of the NLP project">
+            <p>You can try out the application by visiting the <a href="https://nlp-project.com">demo page</a>, and you can view the source code on <a href="https://github.com/username/nlp-project">GitHub</a>.</p>
+            <p>For more information, check out this <a href="https://blog.com/nlp-project">blog post</a> where I discuss the challenges and learnings from building this project.</p>
+          </section>
